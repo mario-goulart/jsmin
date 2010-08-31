@@ -1,0 +1,8 @@
+;;; jsmin.setup -*- scheme -*-
+
+(compile -s -O2 -d1 -j jsmin jsmin.scm)
+(compile -s -O2 -d1 jsmin.import.scm)
+
+(install-extension 'jsmin
+                   '("jsmin.so" "jsmin.import.so")
+                   '((version "2.0")))
