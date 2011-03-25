@@ -5,4 +5,4 @@
  (author "Mario Domenech Goulart")
  (license "BSD")
  (category web)
- (files "jsmin.scm" "jsmin.setup" "jsmin.html"))
+ (files "jsmin.setup" "jsmin.scm" "jsmin.meta"))
