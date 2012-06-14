@@ -1,8 +1,8 @@
 ;;; jsmin.meta -*- scheme -*-
 
 ((egg "jsmin.egg")
- (synopsis "Implementation of Douglas Crockford's JavaScript minifier in Chicken Scheme")
- (author "Mario Domenech Goulart")
+ (synopsis "Implementation of Douglas Crockford's JavaScript minifier in CHICKEN Scheme")
+ (author "<a href=\"http://wiki.call-cc.org/users/mario-domenech-goulart\">Mario Domenech Goulart</a>")
  (license "BSD")
  (category web)
  (files "jsmin.setup" "jsmin.scm" "jsmin.meta" "jsmin.release-info"))
