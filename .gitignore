@@ -1,0 +1,7 @@
+jsmin.build.sh
+jsmin.import.scm
+jsmin.import.so
+jsmin.install.sh
+jsmin.link
+jsmin.so
+jsmin.static.o
