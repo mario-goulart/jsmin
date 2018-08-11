@@ -1,4 +1,9 @@
-(use jsmin test)
+(cond-expand
+ (chicken-4
+  (use jsmin test))
+ (chicken-5
+  (import jsmin test))
+ (else (error "Unsupported CHICKEN version.")))
 
 (test "" (jsmin-string ""))
 

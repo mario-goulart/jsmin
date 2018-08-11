@@ -1,6 +1,13 @@
 (module jsmin (jsmin-string jsmin-file)
 
-(import scheme chicken ports)
+(import scheme)
+(cond-expand
+ (chicken-4
+  (import chicken ports))
+ (chicken-5
+  (import (chicken base)
+          (chicken port)))
+ (else (error "Unsupported CHICKEN version.")))
 
 (define the-lookahead #!eof)
 (define the-a #f)

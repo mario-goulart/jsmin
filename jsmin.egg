@@ -1,0 +1,9 @@
+;; -*- scheme -*-
+((synopsis "Implementation of Douglas Crockford's JavaScript minifier in CHICKEN Scheme")
+ (author "Mario Domenech Goulart")
+ (category misc)
+ (license "BSD")
+ (test-dependencies test)
+ (component-options
+  (csc-options "-O3" "-d1"))
+ (components (extension jsmin)))
